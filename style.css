@@ -168,3 +168,37 @@ a {
 .find-trip form input[type="submit"]:hover {
     box-shadow: 0 0 10px #29d9d5;
 }
+
+/* section about */
+#a-propos {
+    margin-top: 100px;
+    padding: 0 10%;
+    width: 100%;
+}
+
+#a-propos .title {
+    text-transform: capitalize;
+    margin: 70px 0;
+    font-weight: bold;
+    color: #29d9d5;
+    position: relative;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#a-propos .title::after {
+   position: absolute;
+   content: '';
+   left: -15px;
+   height: 100%;
+   background-color: #fff;
+   width: 5px;
+}
+
+#a-propos .img-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
